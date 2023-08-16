@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #FED001;
+    --dark-color: #2A2A2A;
+    --dark-color2: #003464;
+    --light-color: #FAFAFA;
+}
+
+html {
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+.wrapperContainer-nav {
+    background-color: var(--dark-color);
+}
+
+.wrapperContainer-banner {
+
+}
+
+.wrapperContainer-courses {
+    background-color: var(--light-color);
+}
+
+.wrapperContainer-school {
+    background-color: var(--dark-color2);
+}
+
+.wrapperContainer-contact {
+
+}
+
+.wrapperContact-footer {
+    background-color: var(--dark-color);
+}
