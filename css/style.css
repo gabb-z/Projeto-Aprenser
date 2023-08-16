@@ -9,26 +9,66 @@ html {
     font: 400 62.5% 'Inter', sans-serif;
 }
 
-.wrapperContainer-nav {
-    background-color: var(--dark-color);
+p, a {
+    font-size: 1.6rem;
 }
 
+/* Container Principal */
+.containerMain {
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+/* Header & Menu de Navegação */
+.wrapperContainer-nav {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+.headerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.navMenu_ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.navMenu_link {
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem;
+    border: 1px solid;
+}
+
+/* Container da Área de Banner */
 .wrapperContainer-banner {
 
 }
 
+/* Container da Área de Cursos */
 .wrapperContainer-courses {
     background-color: var(--light-color);
 }
 
+/* Container da Área Sobre a Escola */
 .wrapperContainer-school {
     background-color: var(--dark-color2);
+    color: var(--light-color);
 }
 
+/* Container da Área de Contatos */
 .wrapperContainer-contact {
-
+    background-color: var(--light-color);
 }
 
+/* Container do Footer */
 .wrapperContact-footer {
     background-color: var(--dark-color);
+    color: var(--light-color);
 }
